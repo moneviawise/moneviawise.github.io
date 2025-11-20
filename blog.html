@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Budget Tips – Monevia Wise Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="site-wrapper">
+  <header>
+    <div class="container navbar">
+      <div class="nav-left">
+        <a href="index.html" class="nav-logo">
+          <img src="assets/logo-monevia.png" alt="Monevia Wise logo" />
+          <span class="nav-logo-text">MŌNEVIA</span>
+        </a>
+      </div>
+      <nav class="nav-links">
+        <a href="shop.html">Shop</a>
+        <a href="freebies.html">Free Printables</a>
+        <a href="blog.html" class="active">Budget Tips</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Simple budgeting tips & planning ideas</h1>
+        <p>
+          Short, practical posts to help you use your planners, stick to your plan,
+          and tweak your system as life changes.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container blog-list">
+        <!-- Each blog-card can become its own page later if you want -->
+        <article class="blog-card">
+          <div class="blog-meta">Guides</div>
+          <h2>How to start a zero-based budget in 20 minutes</h2>
+          <p class="card-text">
+            Grab your income, list your bills, and give the rest of your money a job.
+            This walkthrough pairs perfectly with the Zero-Based Budget Planner.
+          </p>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-meta">Cash envelopes</div>
+          <h2>3 categories to put in envelopes (and 3 to keep digital)</h2>
+          <p class="card-text">
+            Not every expense works well in cash. Here’s how to choose the best
+            categories for envelopes so you actually stick with them.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Monevia Wise.</div>
+      <div class="footer-links">
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+</div>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
