@@ -723,6 +723,19 @@ header {
   background: #a855f7; /* purple */
 }
 
+/* Google Forms */
+
+.google-form-wrapper {
+  width: 100%;
+  height: 900px; /* adjust if your form is taller/shorter */
+}
+
+.google-form-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 /* Footer */
 
 footer {
