@@ -664,25 +664,6 @@ header {
   font-size: 0.95rem;
 }
 
-/* Footer */
-.blog-card-footer {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.blog-read-more {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #0369a1; /* navy/teal accent */
-}
-
-.blog-card:hover .blog-read-more {
-  text-decoration: underline;
-}
-
-
-
 /* Feature icons */
 
 .feature-icon {
@@ -754,7 +735,23 @@ header {
   color: var(--mw-muted);
 }
 
+
 /* Footer */
+.blog-card-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.blog-read-more {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #0369a1; /* navy/teal accent */
+}
+
+.blog-card:hover .blog-read-more {
+  text-decoration: underline;
+}
 
 footer {
   margin-top: auto;
