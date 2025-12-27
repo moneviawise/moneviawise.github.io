@@ -736,6 +736,24 @@ header {
   border: none;
 }
 
+/* About page */
+.narrow-content {
+  max-width: 720px;
+}
+
+.about-image {
+  width: 100%;
+  margin: 2rem 0;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.15);
+}
+
+.about-quote {
+  margin-top: 2rem;
+  font-style: italic;
+  color: var(--mw-muted);
+}
+
 /* Footer */
 
 footer {
