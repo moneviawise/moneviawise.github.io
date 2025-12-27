@@ -722,6 +722,11 @@ header {
   max-width: 720px;
 }
 
+.about-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .about-image {
   width: 100%;
   margin: 2rem 0;
