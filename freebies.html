@@ -17,24 +17,7 @@
 </head>
 <body>
 <div class="site-wrapper">
-  <header>
-    <div class="container navbar">
-      <div class="nav-left">
-        <a href="index.html" class="nav-logo">
-          <img src="assets/images/homepages/logo-monevia.png" alt="Monevia Wise logo" />
-          <span class="nav-logo-text">MŌNEVIA</span>
-        </a>
-      </div>
-      <nav class="nav-links">
-        <a href="shop.html">Shop</a>
-        <a href="freebies.html" class="active">Free Printables</a>
-        <a href="blog.html">Budget Tips</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
+  <div id="site-header"></div>
   <main>
     <section class="page-hero">
       <div class="container">
@@ -145,16 +128,8 @@
       </div>
     </section>
   </main>
-
-  <footer>
-    <div class="container footer-inner">
-      <div>© <span id="year"></span> Monevia Wise.</div>
-      <div class="footer-links">
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
-  </footer>
+  <div id="site-footer"></div>
+  <script src="/assets/js/includes.js"></script>
 </div>
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();

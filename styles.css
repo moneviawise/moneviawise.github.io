@@ -812,4 +812,35 @@ footer {
     flex-wrap: wrap;
     row-gap: 0.5rem;
   }
+
+  /* Debt Calculator layout override */
+  .mw-calc-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  /* Tablet & up */
+  @media (min-width: 768px) {
+    .mw-calc-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Large desktop (optional future layout) */
+  @media (min-width: 1100px) {
+    .mw-calc-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Tables: prevent squishing on phones */
+  #debtsTable,
+  #detailsBody table {
+    min-width: 100%;
+  }
+
+  #debtsTable {
+    min-width: 0 !important;
+  }
+
 }
