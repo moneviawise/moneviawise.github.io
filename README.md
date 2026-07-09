@@ -28,7 +28,9 @@ The site is organized as a simple multi-page static site:
 - `index.html` – Home page / hero, feature overview, and featured planners
 - `shop.html` – Grid of digital products that link out to Etsy listings
 - `freebies.html` – Free sample printables (PDF downloads)
-- `blog.html` – Short “Budget Tips” articles and planning ideas
+- `blog.html` – Blog index for site-hosted articles plus preserved Medium archive links
+- `blog/posts/` – Website-first blog posts that can be imported into Medium after publishing
+- `BLOG_WORKFLOW.md` – Step-by-step workflow for creating site posts and importing them to Medium
 - `about.html` – Brand story and values
 - `contact.html` – Contact information and demo contact form
 - `faq.html` – Common questions about downloads, printing, and usage
